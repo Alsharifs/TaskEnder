@@ -1,0 +1,44 @@
+{
+  "name": "taskender",
+  "version": "1.0.1",
+  "description": "Windows tool that finds what is locking a file, folder or USB drive, ends it after you confirm, then deletes the item or safely ejects the drive.",
+  "bin": {
+    "taskender": "bin/taskender.js"
+  },
+  "files": [
+    "bin/",
+    "app.py",
+    "blockers.py",
+    "delete.py",
+    "usb.py",
+    "logger.py",
+    "requirements.txt",
+    "run.bat"
+  ],
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "windows",
+    "file-in-use",
+    "folder-in-use",
+    "unlock",
+    "delete",
+    "usb",
+    "eject",
+    "restart-manager"
+  ],
+  "author": "Sayed Alsharif",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alsharifs/TaskEnder.git"
+  },
+  "homepage": "https://github.com/Alsharifs/TaskEnder#readme",
+  "bugs": {
+    "url": "https://github.com/Alsharifs/TaskEnder/issues"
+  }
+}
